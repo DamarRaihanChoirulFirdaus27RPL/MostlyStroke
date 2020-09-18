@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.mostlystroke">
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@drawable/logo"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".Daytwo">
+        </activity>
+        <activity android:name=".PosFinish">
+        </activity>
+        <activity android:name=".PosThree">
+        </activity>
+        <activity android:name=".PosTwo">
+        </activity>
+        <activity android:name=".PosOne">
+        </activity>
+        <activity android:name=".PosStart">
+        </activity>
+        <activity android:name=".Souvenir">
+        </activity>
+        <activity android:name=".Dayone">
+        </activity>
+        <activity android:name=".Absen">
+        </activity>
+        <activity android:name=".Information">
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
